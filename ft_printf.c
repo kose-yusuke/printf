@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_printf.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ykoseki <ykoseki@student.42.fr>            +#+  +:+       +#+        */
+/*   By: koseki.yusuke <koseki.yusuke@student.42    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/31 23:55:19 by ykoseki           #+#    #+#             */
-/*   Updated: 2023/07/13 21:44:22 by ykoseki          ###   ########.fr       */
+/*   Updated: 2024/08/30 11:47:07 by koseki.yusu      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,23 +47,24 @@ int	ft_printf(const char *format, ...)
 
 // int main()
 // {
-// 	char *test = "aaaaa";
-// 	// printf("%s", "aaaaaa");
-// 	// ft_printf("%c", 'a');
-// 	// ft_printf("%c", 'a');
-// 	// printf("%s", "");
-// 	// printf("%c", '\n');
-// 	// printf("%d",printf("%s", tmp));
-// 	// printf("%c", '\n');
-// 	// printf("%d",ft_printf("%s", tmp));
-// 	printf("%d", ft_printf("%p", &test));
-// 	printf("%c", '\n');
-// 	printf("%d",printf("%p", &test));
-// 	// ft_printf("%d", 10);
-// 	// ft_printf("%i", 10);
-// 	// ft_printf("%u", -10);
-// 	// printf("%u", 4294967295);
-// 	// ft_printf("%x", 15);
-// 	// ft_printf("%X", 15);
-// 	// ft_printf("%%", 16);
+	// char *test = "aaaaa";
+	// printf("%s", "aaaaaa");
+	// ft_printf("%c", 'a');
+	// ft_printf("%c", 'a');
+	// printf("%s", "");
+	// printf("%c", '\n');
+	// printf("%d",printf("%s", tmp));
+	// printf("%c", '\n');
+	// printf("%d",ft_printf("%s", tmp));
+	// printf("%d", ft_printf("%p", &test));
+	// printf("%c", '\n');
+	// printf("%d",printf("%p", &test));
+	
+	// ft_printf("%daa", 1);
+	// ft_printf("%i", 10);
+	// ft_printf("%u", -10);
+	// printf("%u", 4294967295);
+	// ft_printf("%x", 15);
+	// ft_printf("%X", 15);
+	// ft_printf("%%", 16);
 // }
